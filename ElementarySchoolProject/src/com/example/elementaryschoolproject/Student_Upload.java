@@ -91,8 +91,7 @@ public class Student_Upload extends Activity {
 		setContentView(R.layout.student_upload);
 
 		//霈�����圾��漲
-		Toast.makeText(Student_Upload.this, "Make Change", Toast.LENGTH_SHORT).show();
-	    mPhone = new DisplayMetrics();
+		mPhone = new DisplayMetrics();
 	    getWindowManager().getDefaultDisplay().getMetrics(mPhone);
 		
 		SetObjFunction();
